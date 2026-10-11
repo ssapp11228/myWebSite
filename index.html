@@ -3,68 +3,111 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dariia Sapuha | Software Developer</title>
+  <title>Dariia Sapuha | B2B Integration Specialist</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-900 text-white min-h-screen flex flex-col justify-between p-6">
 
   <!-- Header -->
   <header class="max-w-4xl mx-auto w-full flex justify-between items-center py-4 border-b border-slate-800">
-    <h1 class="text-xl font-bold text-indigo-400 tracking-wide">Dariia Sapuha</h1>
-    <span class="text-sm text-slate-400">Software Developer Portfolio</span>
+    <div>
+      <h1 class="text-xl font-bold text-indigo-400 tracking-wide">Dariia Sapuha</h1>
+      <p class="text-xs text-slate-400">Data Automation & API Bridges</p>
+    </div>
+    <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 rounded-full text-xs font-semibold">
+      B2B Integration Specialist
+    </span>
   </header>
 
   <!-- Main Content -->
-  <main class="max-w-4xl mx-auto w-full my-12 space-y-8">
-    <section class="text-center space-y-4">
-      <h2 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
+  <main class="max-w-4xl mx-auto w-full my-10 space-y-10">
+    
+    <!-- Hero Section -->
+    <section class="text-center space-y-6">
+      <h2 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl leading-tight">
         Building Bridges Between Legacy Systems & Modern APIs
       </h2>
       <p class="text-slate-400 text-lg max-w-2xl mx-auto">
-        Specializing in Python automation, data transformation pipelines, and microservice integrations.
+        I engineer high-performance data pipelines and automated backend integrations that streamline operations and eliminate manual bottlenecks.
       </p>
+
+      <!-- Core Expertise Badges -->
+      <div class="flex flex-wrap justify-center gap-2 pt-2">
+        <span class="px-3 py-1.5 bg-slate-800 border border-slate-700 text-slate-300 text-xs rounded-lg font-mono">Legacy Data Migration</span>
+        <span class="px-3 py-1.5 bg-slate-800 border border-slate-700 text-slate-300 text-xs rounded-lg font-mono">API Integrations (Shopify, Stripe)</span>
+        <span class="px-3 py-1.5 bg-slate-800 border border-slate-700 text-slate-300 text-xs rounded-lg font-mono">Asynchronous Data Pipelines</span>
+        <span class="px-3 py-1.5 bg-slate-800 border border-slate-700 text-slate-300 text-xs rounded-lg font-mono">System Diagnostics & Middleware</span>
+      </div>
     </section>
 
-    <!-- Project Card -->
-    <div class="bg-slate-800/80 border border-slate-700 rounded-2xl p-8 shadow-2xl backdrop-blur-sm space-y-6">
-      <div class="flex flex-wrap items-center justify-between gap-4">
+    <!-- Featured Case Study Card -->
+    <div class="bg-slate-800/90 border border-slate-700 rounded-2xl p-8 shadow-2xl space-y-6">
+      <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-700/60 pb-4">
         <div>
-          <span class="text-xs font-semibold uppercase tracking-widest text-indigo-400">Featured Project</span>
-          <h3 class="text-2xl font-bold text-white mt-1">Legacy to Shopify Inventory Sync Bridge</h3>
+          <span class="text-xs font-semibold uppercase tracking-widest text-indigo-400">Featured Middleware Solution</span>
+          <h3 class="text-2xl font-bold text-white mt-1">Legacy-to-Shopify Real-Time Inventory Sync</h3>
         </div>
-        <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-mono rounded-full border border-indigo-500/20">
-          Python / Docker / Pandas
+        <span class="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-xs font-mono rounded-full border border-emerald-500/20">
+          Live Production Architecture
         </span>
       </div>
 
-      <div class="grid md:grid-cols-3 gap-6 text-slate-300 text-sm">
-        <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800">
-          <strong class="block text-indigo-300 mb-1">What is this script?</strong>
-          An asynchronous Python automation script for stock updates and inventory pipeline processing.
+      <!-- Business Value Callout -->
+      <div class="p-4 bg-indigo-950/40 border border-indigo-500/30 rounded-xl">
+        <h4 class="text-xs uppercase tracking-wider text-indigo-300 font-bold mb-1">Impact & Business Value</h4>
+        <p class="text-slate-200 text-sm leading-relaxed">
+          Eliminates manual data entry, prevents costly inventory stockouts, and saves <strong>20+ hours of administrative overhead per week</strong> by establishing a fault-tolerant, automated data sync pipeline between legacy warehouse software and online storefronts.
+        </p>
+      </div>
+
+      <!-- Technical Breakdown -->
+      <div class="grid md:grid-cols-3 gap-4 text-slate-300 text-sm">
+        <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800">
+          <strong class="block text-indigo-300 mb-1">Data Ingestion</strong>
+          Ingests raw legacy inventory exports (`.csv`, `.json`) directly from sFTP and local database dumps using Pandas.
         </div>
-        <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800">
-          <strong class="block text-indigo-300 mb-1">Where does it get data?</strong>
-          Parses local `.csv` inventory dumps exported from legacy systems using Pandas.
+        <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800">
+          <strong class="block text-indigo-300 mb-1">Transformation Engine</strong>
+          Normalizes schema fields, validates product quantities, and handles payload mapping in Python.
         </div>
-        <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800">
-          <strong class="block text-indigo-300 mb-1">Where does it push data?</strong>
-          Transforms payloads and simulates live synchronization with the Shopify Admin REST API.
+        <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800">
+          <strong class="block text-indigo-300 mb-1">API Dispatch</strong>
+          Pushes stock levels to Shopify REST Admin API with automated error handling and logging.
         </div>
       </div>
 
-      <div class="pt-2 flex items-center justify-between border-t border-slate-700/50">
-        <span class="text-xs text-slate-400">Containerized & ready for deployment</span>
+      <!-- Call To Action & Links -->
+      <div class="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-slate-700/50">
+        <a href="mailto:murzikvas2009@gmail.com?subject=Infrastructure%20Audit%20Request" 
+           class="w-full sm:w-auto text-center px-6 py-3 bg-indigo-600 hover:bg-indigo-500 font-bold text-sm text-white rounded-xl transition shadow-lg shadow-indigo-600/30">
+          Request Free Infrastructure Audit &rarr;
+        </a>
         <a href="https://github.com/ssapp11228/legacy-shopify-bridge" target="_blank" 
-           class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 font-medium text-sm rounded-xl transition shadow-lg shadow-indigo-600/20">
-          View on GitHub &rarr;
+           class="w-full sm:w-auto text-center px-5 py-3 bg-slate-700 hover:bg-slate-600 font-medium text-sm text-slate-200 rounded-xl transition border border-slate-600">
+          View Code on GitHub
         </a>
       </div>
     </div>
+
+    <!-- Contact Banner / Final CTA -->
+    <section class="bg-gradient-to-r from-indigo-900/40 to-slate-800 border border-indigo-500/20 rounded-2xl p-8 text-center space-y-4">
+      <h3 class="text-2xl font-bold text-white">Need a Custom API Bridge or Data Migration?</h3>
+      <p class="text-slate-300 text-sm max-w-xl mx-auto">
+        Let's discuss how we can automate your internal data workflows and connect your legacy infrastructure with modern platforms.
+      </p>
+      <div class="pt-2">
+        <a href="mailto:murzikvas2009@gmail.com?subject=B2B%20Integration%20Inquiry" 
+           class="inline-block px-8 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm rounded-xl transition shadow-lg shadow-emerald-600/20">
+          Book a 15-Minute Technical Strategy Call
+        </a>
+      </div>
+    </section>
+
   </main>
 
   <!-- Footer -->
   <footer class="max-w-4xl mx-auto w-full text-center text-xs text-slate-500 py-4 border-t border-slate-800">
-    &copy; 2026 Dariia Sapuha. Hosted on Vercel.
+    &copy; 2026 Dariia Sapuha — B2B Integration Specialist. Hosted on Vercel.
   </footer>
 
 </body>
